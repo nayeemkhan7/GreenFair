@@ -1,0 +1,547 @@
+/* ======================================= */
+/* ============  CSS Start  ============== */
+/* ======================================= */
+
+/* ======================================= */
+/*
+      Name      : Abdullah Al Nayeem
+      Email     : nayeem.3119@gmail.com
+      Address   : Savar, Dhaka, Bangladesh
+      LinkedIn  : linkedin.com/in/AbdullahAlNayeem
+
+*/
+/* ======================================= */
+
+
+
+/* ======================================= */
+/* ========  Global CSS Section  ========= */
+
+html{
+  scroll-behavior: smooth;
+}
+body{
+  font-family: 'Open Sans', sans-serif;
+  /* font-family: 'Roboto Slab', serif; */
+}
+ul li{
+  list-style: none;
+}
+h3{
+  font-size: 30px;
+  font-weight: 600;
+  text-transform: uppercase;
+  font-family: 'Roboto Slab', serif;
+}
+.hero-p{
+  font-size: 15px;
+  margin-bottom: 60px;
+  font-family: 'Roboto Slab', serif;
+}
+.btn{
+  text-transform: uppercase;
+}
+.btn-volunteer{
+  padding: 10px 80px;
+  background: #43a906;
+  letter-spacing: 2px;
+  border: 1px solid #43a906;
+}
+.btn-volunteer:hover{
+  background: #50ca07;
+  transform: scale(1.03);
+}
+
+
+/* ======================================= */
+/* ==========  Header Section  =========== */
+
+header{
+  background: #fbfbfb;
+  border-bottom: 1px dashed #888;
+  padding: 10px 0 0;
+  color: #646464;
+}
+header i{}
+header p{
+  display: inline-block;
+  font-size: 12px;
+  margin-right: 10px;
+}
+header social-ico{}
+header .social-ico li{
+  display: inline-block;
+  margin-left: 10px;
+}
+header .social-ico li a{
+  color: #646464;
+}
+header .social-ico li:hover a{
+  color: #43a906;
+}
+
+/* ======================================= */
+/* ==========  NavBar Section  =========== */
+
+.nav-area{
+  background: #fff;
+}
+.nav-area nav{
+  padding-bottom: 0 ;
+  padding-top: 0;
+}
+.nav-area img{
+  margin-bottom: 12px;
+}
+.nav-area ul{}
+.nav-area li{
+  margin-left: 10px;
+  padding-top: 20px;
+  height: 80px;
+}
+.nav-area li:hover{
+  border-bottom: 4px solid #43a906;
+}
+.nav-area li a{
+  color: #393939;
+  font-size: 15px;
+}
+
+/* ======================================= */
+/* ==========  Banner Section  =========== */
+
+.banner-area{
+  background: url(../img/banner-bg.png) no-repeat;
+  background-position: top;
+  background-size: cover;
+  height: 80vh;
+  padding: 100px 0;
+  color: #fff;
+  text-transform: uppercase;
+}
+.banner-area h2{
+  font-weight: 300;
+}
+.banner-area h1{
+  font-size: 45px;
+  font-weight: 600;
+  letter-spacing: 2px;
+  margin: 20px 0 30px;
+}
+.banner-area .btn-banner{
+  text-transform: uppercase;
+  margin-top: 30px;
+  letter-spacing: 2px;
+  border: 1px solid #aaa;
+  padding: 9px 40px;
+  background: #656565;
+}
+.banner-area .btn-banner:hover{
+  background: #212121;
+}
+.banner-area p{
+  font-size: 14px;
+}
+
+/* ======================================= */
+/* ========  Green Fair Section  ========= */
+
+.fair-area{
+  background: #fff;
+  padding: 80px 0;
+  font-family: 'Roboto Slab', serif;
+}
+.fair-area .card{
+  text-align: center;
+  border: 0;
+}
+.fair-area .card img{
+  width: 40%;
+  margin: 0 auto;
+  border-radius: 50%;
+}
+.fair-area .card-title{
+  font-weight: 600;
+  text-transform: uppercase;
+}
+/* === Hover Effect === */
+.fair-area .card:hover img{
+  background: #43a906;
+}
+.fair-area .card:hover .card-title{
+  color: #43a906;
+}
+
+/* ======================================= */
+/* =========  Volunteer Section  ========= */
+
+.volunteer-area{
+  background: linear-gradient(rgba(10,23,6,0.8),rgba(10,23,6,0.9)) , url(../img/volunteer-bg.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 80px 0 40px;;
+  color: #fff;
+}
+.volunteer-area h2{
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.volunteer-area .highlight{
+  color: #43a906;
+}
+.volunteer-area p{
+  padding-right: 10%;
+}
+.volunteer-area .btn-volunteer{
+  margin-top: 74px;
+}
+.volunteer-area .btn-volunteer:hover{}
+
+/* ======================================= */
+/* ========  Latest Work Section  ======== */
+
+.work-area{
+  background: #fff;
+  padding: 80px 0 100px;
+}
+.work-area ul{
+  margin-bottom: 60px;
+}
+.work-area ul li{
+  display: inline-block;
+  margin: 10px 1px;
+}
+.work-area ul li a{
+  font-size: 15px;
+  color: #6a6b6a;
+  text-decoration: none;
+  padding: 8px 15px;
+  border: 1px solid #ddd;
+  border-radius: 3px;
+  text-transform: uppercase;
+  background: #f6f6f6;
+}
+.work-area ul li:hover a{
+  color: #fff;
+  background: #43a906;
+  border: 1px solid #43a906;
+}
+
+/* ========== Gallery Area ========= */
+
+.work-area .work-img{
+  border: 1px solid #bbb;
+  border-radius: 4px;
+}
+.work-area .work-img.imagex-1,
+.work-area .work-img.imagex-5{
+  height: 280px;
+  width: 560px;
+}
+.work-area .work-img.imagex-2,
+.work-area .work-img.imagex-4{
+  height: 280px;
+  width: 280px;
+}
+.work-area .work-img.imagex-3{
+  height: 566px;
+  width: 280px;
+}
+.work-area .work-img.imagex-1{
+  margin-bottom: 3px;
+}
+.work-area .work-img.imagex-2{
+  margin-bottom: 3px;
+}
+.work-area .work-img.imagex-3{}
+.work-area .work-img.imagex-4{
+  margin-top: 3px;
+}
+.work-area .work-img.imagex-5{
+  margin-top: 3px;
+  margin-left: 5px;
+}
+.work-area .work-img:hover{
+  cursor: pointer;
+}
+
+/* ======================================= */
+/* ========  Achievement Section  ======== */
+
+.achieve-area{
+  background: linear-gradient(rgba(10,23,6,0.8),rgba(10,23,6,0.9)) , url(../img/achieve-bg.png) no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 80px 0;
+  color: #fff;
+}
+.achieve-area .card{
+  background: transparent;
+  text-align: center;
+  margin-top: 20px;
+  border: 0;
+}
+.achieve-area .card img{
+  width: 50px;
+  height: 70px;
+  margin: 0 auto;
+}
+.achieve-area .card h5{
+  font-size: 30px;
+}
+.achieve-area .card-line{
+  background: #fff;
+  border: 1px solid #fff;
+  width: 30%;
+  margin: 0 auto;
+  margin-bottom: 20px;
+}
+.achieve-area .card p{
+  text-transform: uppercase;
+}
+
+/* ======================================= */
+/* ===========  Event Section  =========== */
+
+.event-area{
+  background: #fff;
+  padding: 80px 0;
+  font-family: 'Roboto Slab', serif;
+}
+.event-area .hero-p{
+  margin-bottom: 80px;
+}
+.event-area .left .col-6{
+  padding-left: 0;
+  padding-right: 0;
+}
+.event-area .left .card{}
+.event-area .left .card .card-body{
+  text-align: center;
+  background: #eff0f2;
+}
+.event-area .left .card .card-title{
+  font-weight: 600;
+  margin-top: 20px;
+}
+.event-area .left .card .card-text{
+  margin: 20px 0 35px;
+  line-height: 2;
+}
+.event-area .left .card .btn-achieve{
+  padding: 9px 30px;
+  margin-bottom: 30px;
+}
+.event-area .left .card .btn-achieve:hover{
+  background: #43a906;
+  border-color: #43a906;
+}
+.event-area .right .col-12{
+  //padding-bottom: 25px;
+}
+.event-area .right .card{
+  border: 0;
+}
+.event-area .right .card .card-title{
+  text-transform: capitalize;
+}
+.event-area .right .card .card-body{
+  padding: 0;
+  padding-left: 10px;
+}
+.event-area .right .card .card-text{
+  font-size: 13px;
+}
+
+/* ======================================= */
+/* ========  Testimonial Section  ======== */
+
+.testimonial-area{
+  background: linear-gradient(rgba(10,23,6,0.8),rgba(10,23,6,0.9)) , url(../img/testimonial-bg.png) no-repeat;
+  background-position: top;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 100px 0;
+  color: #fff;
+  text-transform: uppercase;
+}
+.testimonial-area .card{
+  background: transparent;
+  margin-top: 80px;
+  border: 0;
+}
+.testimonial-area .card .card-head{
+  width: 22%;
+  margin: 0 auto;
+  margin-top: -80px;
+}
+.testimonial-area .card .card-body{
+  background: #fff;
+  color: #111;
+}
+.testimonial-area .card .quote{
+  font-size: 50px;
+  line-height: 50px;
+  color: #111;
+}
+.testimonial-area .card .card-text{
+  margin-left: 10%;
+  padding-right: 2%;
+  font-size: 14px;
+  text-transform: none;
+  font-style: italic;
+  color: #646464;
+}
+.testimonial-area .card .card-name{
+  text-align: center;
+  margin: 20px 0 0px;
+}
+.testimonial-area .card .post{
+  display: block;
+  text-align: center;
+  font-size: 14px;
+  text-transform: none;
+  color: #398e08;
+}
+
+/* ======================================= */
+/* ===========  Blog Section  ============ */
+
+.blog-area{
+  background: #fff;
+  padding: 80px 0;
+}
+.blog-area .hero-p{
+  margin-bottom: 80px;
+}
+.blog-area .blog-card{
+  text-align: left;
+}
+.blog-area .blog-card .card-title{}
+.blog-area .blog-card i{}
+.blog-area .blog-card .small-text{
+  font-size: 12px;
+  color: #aeadad;
+  margin-bottom: 20px;
+}
+.blog-area .blog-card .small-text p{
+  display: inline;
+  margin-right: 10%;
+}
+.blog-area .blog-card .card-text{
+  font-size: 14px;
+}
+.blog-area .blog-card a{
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 14px;
+  font-weight: 600;
+  color: #111;
+}
+.blog-area .blog-card a:hover{
+  color: #43a906;
+}
+
+/* ======================================= */
+/* =========  WP Theme Section  ========== */
+
+.wptheme-area{
+  background: linear-gradient(rgba(10,23,6,0.6),rgba(10,23,6,0.6)) , url(../img/purchase-bg.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  padding: 60px 0 20px;;
+  color: #fff;
+}
+.wptheme-area h2{
+  font-size: 40px;
+  text-transform: uppercase;
+  font-weight: 600;
+  margin-bottom: 30px;
+}
+.volunteer-area .highlight{
+  color: #43a906;
+}
+.wptheme-area .btn-volunteer{}
+.wptheme-area .btn-volunteer:hover{}
+
+/* ======================================= */
+/* ======  Partner Client Section  ======= */
+
+.client-area{
+  background: #fff;
+  padding: 60px 0 40px;
+}
+.client-area{}
+
+/* ======================================= */
+/* ==========  Contact Section  ========== */
+
+.contact-area{
+  background: #eee;
+  padding: 80px 0;
+}
+.contact-area .hero-p{
+  margin-bottom: 80px;
+}
+.contact-area h4{
+  font-family: 'Roboto Slab', serif;
+  font-size: 24px;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.contact-area .address{
+  font-size: 14px;
+  font-weight: 600;
+  color: #696969;
+}
+.contact-area .address .fa-map-marker,
+.contact-area .address .fa-mobile{
+  font-size: 20px;
+}
+.contact-area .address p{
+  display: inline-block;
+  margin-left: 12px;
+}
+.contact-area form input.form-control{
+  height: 50px;
+  background: #d4d4d4;
+  font-size: 15px;
+}
+.contact-area form textarea.form-control{
+  background: #d4d4d4;
+  font-size: 15px;
+}
+.contact-area .btn-volunteer{
+  margin-top: 20px;
+}
+.contact-area .btn-volunteer:hover{}
+
+/* ======================================= */
+/* ==========  Footer Section  ========== */
+
+footer{
+  background: #222;
+  color: #fff;
+  padding: 30px 0 10px;
+}
+footer p{
+  font-size: 12px;
+}
+
+
+
+/* ======================================= */
+/* ============  CSS End  ============== */
+/* ======================================= */
+
+
+
+
+
+
+
+
+....
