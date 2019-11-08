@@ -1,0 +1,52 @@
+/* ======================================= */
+/* ======  Responsive Media Query  ======= */
+/* ======================================= */
+
+
+
+@media (max-width: 575.98px) {
+  p{
+    font-size: 12px;
+  }
+  header p{
+    font-size: 8px;
+    display: block;
+  }
+  header span{
+    display: none;
+  }
+  header .social-ico{
+    margin-left: 100px;
+  }
+  .banner-area{
+    padding-bottom: 200px;
+  }
+  .banner-area h2{
+    font-size: 26px;
+  }
+  .banner-area h1{
+    font-size: 35px;
+  }
+  .banner-area p{
+    font-size: 10px;
+  }
+  .event-area .right .card img{
+    width: 30%;
+  }
+  .work-area .work-img{
+    height: 100px;
+  }
+}
+
+/* ====================================== */
+
+@media (min-width: 576px) and (max-width: 767.98px) {}
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) and (max-width: 991.98px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) and (max-width: 1199.98px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }
