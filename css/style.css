@@ -114,25 +114,43 @@ header .social-ico li:hover a{
 /* ======================================= */
 /* ==========  Banner Section  =========== */
 
-.banner-area{
+.banner-area1{
   background: url(../img/banner-bg.png) no-repeat;
   background-position: top;
   background-size: cover;
-  height: 90vh;
+  height: 80vh;
   padding: 100px 0;
   color: #fff;
   text-transform: uppercase;
 }
-.banner-area h2{
+.banner-area2{
+  background: url(../img/banner-bg2.png) no-repeat;
+  background-position: center;
+  background-size: cover;
+  height: 80vh;
+  padding: 100px 0;
+  color: #fff;
+  text-transform: uppercase;
+}
+.banner-area3{
+  background: url(../img/banner-bg3.png) no-repeat;
+  background-position: top;
+  background-size: cover;
+  height: 80vh;
+  padding: 100px 0;
+  color: #fff;
+  text-transform: uppercase;
+}
+.banner h2{
   font-weight: 300;
 }
-.banner-area h1{
+.banner h1{
   font-size: 45px;
   font-weight: 600;
   letter-spacing: 2px;
   margin: 20px 0 30px;
 }
-.banner-area .btn-banner{
+.banner .btn-banner{
   text-transform: uppercase;
   margin-top: 30px;
   letter-spacing: 2px;
@@ -140,8 +158,22 @@ header .social-ico li:hover a{
   padding: 9px 40px;
   background: #656565;
 }
-.banner-area .btn-banner:hover{
+.banner .btn-banner:hover{
   background: #212121;
+}
+.banner .carousel-indicators li {
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    margin-right: 4px;
+    margin-left: 4px;
+    cursor: pointer;
+    background: transparent;
+    border: 3px solid #fff;
+    transition: opacity .6s ease;
+}
+.banner .carousel-indicators .active {
+    background: #ddd;
 }
 
 
